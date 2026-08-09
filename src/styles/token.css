@@ -1,0 +1,18 @@
+@import '@radix-ui/colors/gray.css';
+@import '@radix-ui/colors/gray-dark.css';
+@import '@radix-ui/colors/cyan.css';
+@import '@radix-ui/colors/cyan-dark.css';
+
+:root {
+  --pico-background-color: var(--gray-dark-1);
+}
+
+::selection {
+  background-color: var(--cyan-9);
+  color: var(--gray-1);
+}
+
+::-moz-selection {
+  background-color: var(--cyan-9);
+  color: var(--gray-1);
+}

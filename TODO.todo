@@ -1,6 +1,6 @@
 # Idea
 
-- [ ] Profile picture: Squircle like iOS 26 app icons
+- [ ] Profile picture: Rounded square
 - [ ] Local time in the nav bar: Clock icon + local time + (gtm: XX / Europe, Paris)
 - [ ] Custom cursor: circle, inverted color (from the content under the cursor), reduce size when clicking + reduce animation
     - [ ] Cursor: change from circle to rounded bar when hovering text

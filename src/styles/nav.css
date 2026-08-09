@@ -1,0 +1,30 @@
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--gray-dark-1);
+}
+
+.site-nav-inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--gray-dark-11);
+}
+
+.clock-icon {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  display: block;
+}
