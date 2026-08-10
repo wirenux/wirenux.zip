@@ -1,0 +1,37 @@
+*,
+a,
+button,
+input,
+select,
+textarea,
+[role="button"],
+label {
+  cursor: none !important;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, border-radius 0.2s ease;
+  will-change: transform, width, height;
+}
+
+.custom-cursor.is-clicking {
+  width: 14px;
+  height: 14px;
+}
+
+.custom-cursor.is-text {
+  width: 4px;
+  height: 28px;
+  border-radius: 4px;
+}
