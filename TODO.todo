@@ -16,9 +16,9 @@
 - [x] Profile picture on the left side of the text (Vertically centered)
 - [x] Username on top of the main text (centered to the left)
 - [x] Button: (on the right of the username) Download Resume, Share Link, Copy Main text (all are just icon but with text in tooltip)
-- [ ] Icons: little white icon in front of each little paragraph
+- [x] Icons: little white icon in front of each little paragraph
 
-- [ ] HR
+- [x] HR
 
 ### Project list
 
@@ -52,3 +52,7 @@
 
 - [ ] Right Side
     - [ ] Github icon -> Github profile
+
+# Todo
+
+- [ ] make share, download, copy button work
