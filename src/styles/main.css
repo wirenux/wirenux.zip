@@ -10,3 +10,9 @@
 body {
   font-family: 'Space Grotesk';
 }
+
+@media (hover: none) {
+  .project-image img {
+    filter: grayscale(0) !important;
+  }
+}
