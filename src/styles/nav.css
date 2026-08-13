@@ -20,6 +20,12 @@
   gap: 0.4rem;
   font-size: 0.85rem;
   color: var(--gray-dark-11);
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background-color: rgba(20, 20, 22, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .clock-icon {
