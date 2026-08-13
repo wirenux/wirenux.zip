@@ -11,6 +11,27 @@ body {
   font-family: 'Space Grotesk';
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page-wrap {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-paragraphs p {
+  overflow-wrap: anywhere;
+}
+
 @media (hover: none) {
   .project-image img {
     filter: grayscale(0) !important;
