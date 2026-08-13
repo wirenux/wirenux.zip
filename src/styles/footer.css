@@ -47,7 +47,7 @@ footer a:hover svg {
     color: var(--cyan-9);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     footer {
         flex-direction: column;
         text-align: center;

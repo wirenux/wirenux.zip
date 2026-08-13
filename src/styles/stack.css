@@ -55,7 +55,7 @@
     flex-shrink: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     .stack-grid {
         grid-template-columns: 1fr;
         gap: 0;

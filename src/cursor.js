@@ -1,6 +1,9 @@
 import gsap from 'gsap'
 
 export function initCursor() {
+  const supportsHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches
+  if (!supportsHover) return
+
   const cursor = document.createElement('div')
   cursor.classList.add('custom-cursor')
   document.body.appendChild(cursor)
