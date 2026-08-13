@@ -22,36 +22,36 @@
 
 ### Project list
 
-- [ ] Title: project
-- [ ] Subtitle: a few things i've made.
+- [x] Title: project
+- [x] Subtitle: a few things i've made.
 
-- [ ] project list
-    - [ ] Big project image (left/right of the text) -> github link
-    - [ ] Year
-    - [ ] Name
-    - [ ] little description
-    - [ ] "view work" button -> github link
+- [x] project list
+    - [x] Big project image (left/right of the text) -> github link
+    - [x] Year
+    - [x] Name
+    - [x] little description
+    - [x] "view work" button -> github link
 
-- [ ] HR
+- [x] HR
 
 ### Stack
 
-- [ ] Title: what's my stack
-- [ ] Subtitle : ???
+- [x] Title: what's my stack
+- [x] Subtitle : ???
 
-- [ ] Double column
-    - [ ] Icon (Colored) + Text (on both column)
+- [x] Double column
+    - [x] Icon (Colored) + Text (on both column)
 
 ### Footer
 
-- [ ] Left side
-    - [ ] "C date wirenux"
+- [x] Left side
+    - [x] "C date wirenux"
 
-- [ ] Center
-    - [ ] "designed and developed by **wirenux**"
+- [x] Center
+    - [x] "designed and developed by **wirenux**"
 
-- [ ] Right Side
-    - [ ] Github icon -> Github profile
+- [x] Right Side
+    - [x] Github icon -> Github profile
 
 # Todo
 
