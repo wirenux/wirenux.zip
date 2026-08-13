@@ -5,7 +5,7 @@ export function initCursor() {
   cursor.classList.add('custom-cursor')
   document.body.appendChild(cursor)
 
-  const pos = { x: window.innerWidth / 2, y: window.innerHeight / 2 }
+  const pos = { x: (window.innerWidth / 2) - 12, y: (window.innerHeight / 2) - 12 } // center the cursor
 
   window.addEventListener('mousemove', (e) => {
     pos.x = e.clientX
