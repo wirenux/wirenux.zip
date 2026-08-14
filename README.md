@@ -8,12 +8,12 @@ My personal portfolio, built with vanilla HTML, CSS, and JS.
 
 ## Stack
 
-- **Vite** — dev server & build
-- **Pico.css** — base styling
-- **Radix Colors** — dark theme palette
-- **GSAP** — cursor & animations
-- **Lenis** — smooth scroll
-- **Simple Icons** — stack section icons
+- **Vite** - dev server & build
+- **Pico.css** - base styling
+- **Radix Colors** - dark theme palette
+- **GSAP** - cursor & animations
+- **Lenis** - smooth scroll
+- **Simple Icons** - stack section icons
 
 ## Features
 
