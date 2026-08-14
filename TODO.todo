@@ -55,7 +55,7 @@
 
 # Todo
 
-- [ ] make share, download, copy button work
+- [x] make share, download, copy button work
 - [x] add pfp as favicon.ico
 - [x] add frost glass for clock when scroll (only on it not on the whole top bar)
 - [x] on mobile image -> color
