@@ -1,4 +1,5 @@
 import Lenis from 'lenis'
+import gsap from 'gsap'
 
 export function initSmoothScroll() {
   const lenis = new Lenis({
@@ -6,12 +7,11 @@ export function initSmoothScroll() {
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   })
 
-  function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-  }
+  gsap.ticker.add((time) => {
+    lenis.raf(time * 1000)
+  })
 
-  requestAnimationFrame(raf)
+  gsap.ticker.lagSmoothing(0)
 
   return lenis
 }
