@@ -39,3 +39,7 @@ npm run preview
 ## License
 
 See [LICENSE](./LICENSE).
+
+## Crediting
+
+If you use this project in your own work, please provide attribution by linking back to this repository or mentioning **wirenux** in your project's acknowledgements.
