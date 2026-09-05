@@ -6,6 +6,7 @@
 @import './projects.css';
 @import './footer.css';
 @import './stack.css';
+@import './gallery.css';
 
 body {
   font-family: 'Space Grotesk';
