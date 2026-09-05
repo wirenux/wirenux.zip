@@ -76,7 +76,6 @@
   cursor: pointer;
 }
 
-
 .hero-actions svg {
   display: block;
   width: 18px;
@@ -106,6 +105,11 @@
   width: 24px;
   height: 24px;
   margin-right: 10px;
+}
+
+.kaomoji {
+  white-space: nowrap;
+  display: inline-block;
 }
 
 @media (max-width: 1200px) {
