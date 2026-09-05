@@ -76,3 +76,9 @@
 @media (max-width: 540px) {
   .gallery-grid { grid-template-columns: 1fr; }
 }
+
+@media (hover: none) {
+  .gallery-item img {
+    filter: grayscale(0);
+  }
+}
