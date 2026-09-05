@@ -25,7 +25,7 @@ export function initClipboard() {
                     url: window.location.href,
                 })
             } else {
-                await navigator.clipboard.writeText(window.location.href) // ← fixed
+                await navigator.clipboard.writeText(window.location.href)
                 shareBtn.setAttribute('data-tooltip', 'Link copied!')
                 setTimeout(() => shareBtn.setAttribute('data-tooltip', 'Share link'), 1500)
             }
